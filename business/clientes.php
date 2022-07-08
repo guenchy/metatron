@@ -1,12 +1,5 @@
 
-<?php 
 
-include_once 'includes/bd.php';
-include_once 'includes/queries.php';
-
-session_start();
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +10,7 @@ session_start();
     <title>Clientes | nicki's boutique</title>
     <link rel="stylesheet" href="css/media_data.css" />
     <link rel="stylesheet" href="css/data.css" />
-    <link rel="stylesheet" href="css/cursos.css" />
+    <link rel="stylesheet" href="css/Productos.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -47,7 +40,7 @@ session_start();
           <a href="./compras.php" class="link"> Compras </a>
         </li>
         <li class="links_item">
-          <a href="./cursos.php" class="link"> Productos </a>
+          <a href="./productos.php" class="link"> Productos </a>
         </li>
       </ul>
     </nav>
